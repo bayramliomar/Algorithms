@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSortedArrays", "MergeS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "ReverseString\ReverseString.csproj", "{2E3AB1E4-DB4A-43C3-A3C0-00E500D2553C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateArray", "RotateArray\RotateArray.csproj", "{A6C00268-44CE-4915-9E82-1EBE1D7A75F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "RotateArray\RotateArray.csproj", "{A6C00268-44CE-4915-9E82-1EBE1D7A75F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstRecurringCharacter", "FirstRecurringCharacter\FirstRecurringCharacter.csproj", "{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A6C00268-44CE-4915-9E82-1EBE1D7A75F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6C00268-44CE-4915-9E82-1EBE1D7A75F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6C00268-44CE-4915-9E82-1EBE1D7A75F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
