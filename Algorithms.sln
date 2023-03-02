@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "ReverseStr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "RotateArray\RotateArray.csproj", "{A6C00268-44CE-4915-9E82-1EBE1D7A75F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstRecurringCharacter", "FirstRecurringCharacter\FirstRecurringCharacter.csproj", "{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstRecurringCharacter", "FirstRecurringCharacter\FirstRecurringCharacter.csproj", "{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUniqueCharacterString", "FirstUniqueCharacterString\FirstUniqueCharacterString.csproj", "{BE37F500-E212-4A10-8360-9780AA6AF389}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE37F500-E212-4A10-8360-9780AA6AF389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE37F500-E212-4A10-8360-9780AA6AF389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE37F500-E212-4A10-8360-9780AA6AF389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE37F500-E212-4A10-8360-9780AA6AF389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
