@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "RotateArray\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstRecurringCharacter", "FirstRecurringCharacter\FirstRecurringCharacter.csproj", "{91CFA0B0-CDF5-4774-9E17-DA5253D73E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUniqueCharacterString", "FirstUniqueCharacterString\FirstUniqueCharacterString.csproj", "{BE37F500-E212-4A10-8360-9780AA6AF389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueCharacterString", "FirstUniqueCharacterString\FirstUniqueCharacterString.csproj", "{BE37F500-E212-4A10-8360-9780AA6AF389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal's Triangle", "Pascal's Triangle\Pascal's Triangle.csproj", "{BB00415E-1B39-4E5C-97F4-7062FEB2C6D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BE37F500-E212-4A10-8360-9780AA6AF389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE37F500-E212-4A10-8360-9780AA6AF389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE37F500-E212-4A10-8360-9780AA6AF389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB00415E-1B39-4E5C-97F4-7062FEB2C6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB00415E-1B39-4E5C-97F4-7062FEB2C6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB00415E-1B39-4E5C-97F4-7062FEB2C6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB00415E-1B39-4E5C-97F4-7062FEB2C6D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
