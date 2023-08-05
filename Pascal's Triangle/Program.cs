@@ -1,6 +1,7 @@
-﻿using System.Globalization;
-
-Generate(17);
+﻿using System.Diagnostics;
+using System.Globalization;
+Debug.AutoFlush();
+//Generate(17);
 
 IList<IList<int>> Generate(int numRows)
 {
