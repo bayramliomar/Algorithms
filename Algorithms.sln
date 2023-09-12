@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lonely Integer", "Lonely In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reorder List", "Reorder List\Reorder List.csproj", "{169C26B5-EA50-46A9-B8A4-77182E4C9C74}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseballGame", "BaseballGame\BaseballGame.csproj", "{0855E61F-B674-4D04-B957-5E39C44909A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{169C26B5-EA50-46A9-B8A4-77182E4C9C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{169C26B5-EA50-46A9-B8A4-77182E4C9C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{169C26B5-EA50-46A9-B8A4-77182E4C9C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0855E61F-B674-4D04-B957-5E39C44909A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0855E61F-B674-4D04-B957-5E39C44909A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0855E61F-B674-4D04-B957-5E39C44909A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0855E61F-B674-4D04-B957-5E39C44909A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

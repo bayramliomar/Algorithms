@@ -1,6 +1,7 @@
-﻿IsValid("([]{})");
+﻿IsValid2("([}{})");
 Console.ReadLine();
 
+//Initial Solution
 bool IsValid(string input)
 {
     Stack<char> stack = new();
@@ -24,4 +25,19 @@ bool IsValid(string input)
 
     }
     return true;
+}
+
+///Accepted Solution
+bool IsValid2(string input)
+{
+    int limit = -1;
+    while (input.Length!= limit)
+    {
+        limit = input.Length;
+        input=input.Replace("()", "");
+        input=input.Replace("[]", "");
+        input=input.Replace("{}", "");
+    }
+    if (input.Length == 0) return true;
+    else return false;
 }
