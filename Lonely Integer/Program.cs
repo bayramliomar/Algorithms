@@ -1,4 +1,5 @@
-﻿LonelyInteger(new List<int> { 4, 9, 95, 93, 57, 4, 57, 93, 9 });
+﻿LonelyInteger2(new List<int> { 4, 9, 95, 93, 57, 4, 57, 93, 9 });
+LonelyInteger(new List<int> { 4, 9, 95, 93, 57, 4, 57, 93, 9 });
 LonelyInteger(new List<int> { 1, 2, 3, 4, 3, 2, 1 });
 Console.ReadLine();
 
@@ -27,4 +28,18 @@ static int LonelyInteger(List<int> a)
         }
     }
     return result.Where(x=>x.Value==1).FirstOrDefault().Key;
+}
+
+static int LonelyInteger2(List<int> a)
+{
+    HashSet<int> result = new();
+    for (int i = 0; i < a.Count; i++)
+    {
+        if (a[i] >= 1 && a[i] < 100)
+        {
+            if (!result.Add(a[i]))
+                result.Remove(a[i]);
+        }
+    }
+    return result.FirstOrDefault();
 }
